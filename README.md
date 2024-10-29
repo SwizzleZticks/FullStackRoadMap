@@ -1,1 +1,1 @@
-[View my fullstack roadmap](full-stack.pdf)
+![View my fullstack roadmap](fullstackmap.png)
