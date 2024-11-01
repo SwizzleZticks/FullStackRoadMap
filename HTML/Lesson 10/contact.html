@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Josh" content="Contact information for The Little Taco Shop">
+    <meta name="description" content="Contact information for The Little Taco Shop">
     <title>Contact Us</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" type="text/css">
@@ -11,7 +11,7 @@
     <header>
         <h1>Contact Us</h1>
 
-        <nav aria-label="primary-Navigation">
+        <nav aria-label="primary navigation">
             <ul>
                 <li>
                     <a href="/">Home</a>
@@ -28,7 +28,7 @@
             </ul>
         </nav>
         <figure>
-            <img src="img/tacos_close_up_400x260.png" alt="Taco Shop Tacos" width="400" width="260">
+            <img src="img/tacos_close_up_400x260.png" alt="Taco Shop Tacos" width="400" height="260">
             <figcaption>Taco Shop Tacos</figcaption>
         </figure>
     </header>
@@ -49,12 +49,13 @@
                     <p>
                         <label for="message">Your Message: </label>
                         <br>
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here" required></textarea>
                     </p>
                 </fieldset>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-                <br>
+                <p>
+                    <button type="submit" aria-label="Submit your message">Submit</button>
+                    <button type="reset" aria-label="Clear all fields">Reset</button>
+                </p>
             </form>
         </article>
         <section id="location">
