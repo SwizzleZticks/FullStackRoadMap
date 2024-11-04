@@ -5,3 +5,20 @@ body {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
 }
+
+a {
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: hsl(187, 52%, 52%, 0.8);
+    background: gold;
+}
+
+a:active {
+    color:red;
+}
